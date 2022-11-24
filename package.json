@@ -20,6 +20,14 @@
   "engines": {
     "node": ">=14.0.0"
   },
-  "dependencies": {},
+  "tsup": {
+    "entry": [
+      "src/index.ts"
+    ],
+    "splitting": false,
+    "sourcemap": true,
+    "clean": true,
+    "dts": true
+  },
   "packageManager": "npm@8.5.5"
 }
